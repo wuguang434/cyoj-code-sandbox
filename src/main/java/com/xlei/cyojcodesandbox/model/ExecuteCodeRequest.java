@@ -11,6 +11,9 @@ import java.util.List;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+/**
+ * 执行判题所需参数的实体类
+ */
 public class ExecuteCodeRequest {
     private List<String> inputList;
 

@@ -10,6 +10,9 @@ import java.util.List;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+/**
+ * 判题后返回的实体类
+ */
 public class ExecuteCodeResponse {
     private List<String> outputList;
     /**

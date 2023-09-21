@@ -17,4 +17,5 @@ public class ExecuteMessage {
      * 异常退出
      */
     private String errorMessage;
+    private Long time;
 }
